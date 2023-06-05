@@ -45,7 +45,7 @@ public class Exe02 {
 	public static void imprimir(Tela[] [] impr) {
 		
 		for (int i=0; i < impr.length; i++) {
-			for(int j = 0; j<impr[0].length;j++) {
+			for(int j = 0; j<impr[i].length;j++) {
 				System.out.println("Eh novo: " + impr[i][j].ehNovo);
 				System.out.println("Eh da cor: " + impr[i][j].cor);
 				System.out.println("A taxa de hz eh: " + impr[i][j].hz);
