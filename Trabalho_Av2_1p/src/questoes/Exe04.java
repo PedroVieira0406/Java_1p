@@ -78,7 +78,7 @@ public class Exe04 {
 			soma+=aluno[i].media;
 		}
 		
-		float mediaGeral = soma/10;
+		float mediaGeral = soma/aluno.length;
   
 		return mediaGeral;
 	}
