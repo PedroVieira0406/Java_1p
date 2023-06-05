@@ -6,8 +6,7 @@ import dados.Aluno;
 
 public class Exe04 {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 
 		Aluno[] alunos = new Aluno [10];
 		
@@ -21,7 +20,6 @@ public class Exe04 {
 		
 		float mediaGeral= Exe04.mediageral(alunos);
 		System.out.println("A média da turma é: "+ mediaGeral);
-		
 	}
 
 	public static Aluno lerDados(){
@@ -47,12 +45,10 @@ public class Exe04 {
 		alunos.aprovado= Exe04.aprovado(alunos);
 		
 		return alunos;
-		
 	}
  	public static float media(Aluno aluno) {
 	
 		return  (float) ((aluno.nota01 + aluno.nota02)/2);
-		
 	}
 	public static String aprovado(Aluno aluno) {
 		float media = media(aluno);
@@ -62,7 +58,6 @@ public class Exe04 {
 		else {
 			return "Reprovado";
 		}
-		
 	}
 	public static void imprimir(Aluno aluno) {
 			
@@ -73,7 +68,6 @@ public class Exe04 {
         System.out.println("Média: " + aluno.media);
         System.out.println("Situação: " + aluno.aprovado);
         System.out.println("---------------------------");
-        
 	}
 	
 	public static float mediageral (Aluno [] aluno ) {
