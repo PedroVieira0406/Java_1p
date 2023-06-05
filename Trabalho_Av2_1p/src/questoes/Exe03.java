@@ -17,8 +17,7 @@ public class Exe03 {
 		
 		for (int i = 0; i < alunos.length; i++) {
                 Exe03.imprimir(alunos[i]);
-            }
-		
+            }	
 	}
 
 	public static Aluno lerDados(){
@@ -45,12 +44,10 @@ public class Exe03 {
 		
 		
 		return alunos;
-		
 	}
  	public static float media(Aluno aluno) {
 	
 		return  (float) ((aluno.nota01 + aluno.nota02)/2);
-		
 	}
 	public static String aprovado(Aluno aluno) {
 		float media = media(aluno);
@@ -60,7 +57,6 @@ public class Exe03 {
 		else {
 			return "Reprovado";
 		}
-		
 	}
 	public static void imprimir(Aluno aluno) {
 		
@@ -71,6 +67,5 @@ public class Exe03 {
         System.out.println("Média: " + aluno.media);
         System.out.println("Situação: " + aluno.aprovado);
         System.out.println("---------------------------");
-        
 	}
 }
