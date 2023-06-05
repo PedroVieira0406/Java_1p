@@ -66,7 +66,7 @@ public class Exe04 {
 	}
 	public static void imprimir(Aluno aluno) {
 			
-		System.out.println("Nome: " + aluno.nome);
+	System.out.println("Nome: " + aluno.nome);
         System.out.println("Disciplina: " + aluno.materia);
         System.out.println("Nota A1: " + aluno.nota01);
         System.out.println("Nota A2: " + aluno.nota02);
