@@ -83,4 +83,3 @@ public class Exe04 {
 		return mediaGeral;
 	}
 }
-
