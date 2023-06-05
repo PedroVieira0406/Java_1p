@@ -11,7 +11,7 @@ public class Exe02 {
 		
 		
 		for(int i =0; i<info.length; i++) {
-			for(int j = 0; j<info[0].length;j++)
+			for(int j = 0; j<info[i].length;j++)
 			
 			info[i] [j]= Exe02.lerDados();
 		}
